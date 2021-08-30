@@ -9,7 +9,7 @@ namespace Discount.API
         public static void Main(string[] args)
         {
             var host = CreateHostBuilder(args).Build();
-            host.MigrateDb<Program>();
+            //host.MigrateDb<Program>();
             host.Run();
         }
 
